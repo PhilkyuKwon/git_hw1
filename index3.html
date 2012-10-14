@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="ko"> 
+	<head>
+		<meta charset="utf-8">
+		<title>설문조사</title>
+		<link href="stylesheets/reset.css" rel="stylesheet" type="text/css">
+		<link href="stylesheets/index3.css" rel="stylesheet" type="text/css">
+	</head>
+	<body>
+	<div id="wrap">
+	<div id="navbar">
+		<ul>
+			<li><a href="./index.html">자기소개란</a></li>
+			<li><a href="./index2.html">공식사이트</a></li>
+			<li><a href="./index3.html">설문조사</a></li>
+		</ul>
+	</div>
+		<form action="url" method="post">
+		<a href="./index2.html" target="_blank">
+						권필규 
+		</a>는<br/><br/>
+		<div id="header_left">
+			강남스타일이다?: 
+			<br/>
+			취미는 이거일 것이다?:
+			<br/>
+			이사람(사물)과 닮았다?: 
+			<br/>
+			지금 어디에 살까?:
+		</div>
+		<div id="header_right">
+
+			<input type="radio" name="agree" value="m"/>O
+			<input type="radio" name="notagree" value="f"/>X
+			<br/>
+			<input type="checkbox" name="hobby" value="book"/>책
+			<input type="checkbox" name="hobby" value="movie"/>영화
+			<input type="checkbox" name="hobby" value="music"/>음악
+			<input type="checkbox" name="hobby" value="game"/>게임
+			<br/>
+			<input type="file" name="photo"/>
+			<br/>
+			<select name="address">
+				<option value="jamsil">잠실</option>
+				<option value="apgujeong">압구정동</option>
+				<option value="chungdam">청담동</option>
+				<option value="sooyu">수유리</option>
+				<option value="ilsan">일산</option>
+				<option value="yongin">용인</option>
+	  		</select>
+	 	</div>
+	  	<div id="header_footer">
+	  		<br/>
+	  		다른 질문사항들을 적어주세요:<br/>
+	  		<textarea cols="30" rows="5" name="intro"></textarea>
+	  		<br/>
+	  		<input type="submit" value="완료"/> 
+	  	</div>
+	 	</form>
+	 </div>
+	</body>
+</html>
